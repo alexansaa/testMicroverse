@@ -14,46 +14,52 @@
     <p id="description">This is a short explanation</p>
     
     <form action="" id="survey-form">
-      <label id="name-label">
-        Name:
-      </label>
-      <input id="name" type="text" name="name" required placeholder="Joaquin Samaniego">
-      <label id="email-label">
-        Email:
-      </label>
-      <input id="email" type="email" name="email" required placeholder="axxxx@hotmail.com">
-      <label id="number-label">
-        Number:
-      </label>
-      <input id="number" type="number" min="0" max="100" placeholder="{x|x >= 0 ^ x /<=100}">
-
+      <div>
+        <label id="name-label">
+          Name:
+        </label>
+        <input id="name" type="text" name="name" required placeholder="Joaquin Samaniego">
+        <label id="email-label">
+          Email:
+        </label>
+        <input id="email" type="email" name="email" required placeholder="axxxx@hotmail.com">
+        <label id="number-label">
+          Number:
+        </label>
+        <input id="number" type="number" min="0" max="100" placeholder="{x|x >= 0 v x =100}">
+      </div>
+      
       <select name="" id="dropdown">
         <option>Option one</option>
         <option>Option two</option>
       </select>
 
-      <label id="radio1-label">
-        Option 1
-      </label>
-      <input type="radio" name="radio" value="one">
-      <label id="radio2-label">
-        Option 2
-      </label>
-      <input type="radio" name="radio" value="two">
-
-      <label id="check1-label">
-        Brown Package
-      </label>
-      <input type="checkbox" name="check" id="" value="one">
-      <label id="check2-label">
-        Green Package
-      </label>
-      <input type="checkbox" name="check" id="" value="two">
-      <label id="check3-label">
-        Red Package
-      </label>
-      <input type="checkbox" name="check" id="" value="three">
-
+      <div>
+        <label id="radio1-label">
+          Option 1
+        </label>
+        <input type="radio" name="radio" value="one">
+        <label id="radio2-label">
+          Option 2
+        </label>
+        <input type="radio" name="radio" value="two">
+      </div>
+      
+      <div>
+        <label id="check1-label">
+          Brown Package
+        </label>
+        <input type="checkbox" name="check" id="" value="one">
+        <label id="check2-label">
+          Green Package
+        </label>
+        <input type="checkbox" name="check" id="" value="two">
+        <label id="check3-label">
+          Red Package
+        </label>
+        <input type="checkbox" name="check" id="" value="three">
+      </div>
+      
       <textarea></textarea>
 
       <button id="submit"></button>
