@@ -31,3 +31,22 @@ select{
 select option{
     color:black;
 }
+
+button{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(188, 158, 22);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.check_box{
+    display: flex;
+}
+
+.radio_botton{
+    display: flex;
+}
