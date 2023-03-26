@@ -1,9 +1,14 @@
 *{
     box-sizing: border-box;
+    color:white;
 }
 
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.truck1.ec/img/Maquinaria_de_construccion_Cargadora_de_ruedas_Caterpillar_966_K-xxl-1194/1194_9189449724081.jpg);
+}
 
 form{
+    background-color: rgba(27, 27, 50, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +16,7 @@ form{
     max-width: 800px;
     width: 80%;
     margin: 0 auto;
+    padding: 40px;
 }
 
 input{
