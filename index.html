@@ -14,9 +14,18 @@
     <p id="description">This is a short explanation</p>
     
     <form action="" id="survey-form">
-      <input id="name" type="text" name="name" required>
-      <input id="email" type="email" name="email" required>
-      <input id="number" type="number" min="0" max="100">
+      <label id="name-label">
+        Name:
+      </label>
+      <input id="name" type="text" name="name" required placeholder="Joaquin Samaniego">
+      <label id="email-label">
+        Email:
+      </label>
+      <input id="email" type="email" name="email" required placeholder="axxxx@hotmail.com">
+      <label id="number-label">
+        Number:
+      </label>
+      <input id="number" type="number" min="0" max="100" placeholder="{x|x >= 0 ^ x /<=100}">
     </form>
 
     <p>Hello World, we are software developers!</p>
