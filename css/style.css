@@ -23,3 +23,11 @@ input{
     width: 100%;
     margin-bottom: 20px;
 }
+
+select{
+    color:black;
+}
+
+select option{
+    color:black;
+}
